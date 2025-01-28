@@ -121,3 +121,12 @@ que descrito no passo 2.1.3.1 e em seguida clique em "Next".
 - ![Job finished](assets/job_finished.png)
 
 ## Passo 3: Criar Endpoints
+### Problemas:
+- Erro no processo de criar subscrição free tier.
+- ![Erro free tier](assets/error_free_tier.png)
+- Devido esse problema fui obrigado a criar uma subscrição de estudante.
+- ![Subscrição de estudante](assets/student_subscription.png)
+- Essa subscrição não permite criar endpoints.
+- ![Erro endpoints azure](assets/error_endpoints_azure.png)
+- Ao seguir todos os passos da documentação encontrada no [link]([text](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-deploy-online-endpoints?view=azureml-api-2&tabs=python)) tive o mesmo erro ao tentar criar um endpoint.
+- ![Erro endpoints](assets/error_endpoints.png)
